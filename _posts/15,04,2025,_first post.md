@@ -11,6 +11,6 @@ A main part of the code is idenifing minutia, this is done through three steps:
 ##skeletonization
 skeletonization is the prosses of turning a gradent of pixles that form a line into a sigle pixle thick line. this is requried for minutia detection and works by expanding the gradent to be one colour this expanding every line,
 each line is then thinned at its middle point.
-changing this: /../main/assets/images/lines.png
-to this /../main/assets/images/lines2.png
+changing this: ![fingerpint pre skeletonization](/images/lines.png)
+to this ![fingerpint post skeletonization](/images/lines2.png)
 
