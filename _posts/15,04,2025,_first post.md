@@ -24,4 +24,5 @@ at each of these lacations a minutia point was placed.
 The function will start at the outside of the fingerprint and trace along the ridge lines in a clacuated diection to each minutia, after reaching a minutia it logs the direction.
 when it comes aponn a intersection or a speoration, the code would calculate three angles, the output/ input angle (based on if its divergance or convergance). for convergance the output angle is found by taking the mean of the two imput angles then compard with the points along the out put line to find the output angle.
 for divergance the prosses is the same but in reverse.
+![angle clacuation example](/images/anglecalc.png)
 
