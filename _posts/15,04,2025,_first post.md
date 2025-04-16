@@ -10,7 +10,15 @@ A main part of the code is idenifing minutia, this is done through three steps:
 3. estomation of minutia directions 
 ##skeletonization
 skeletonization is the prosses of turning a gradent of pixles that form a line into a sigle pixle thick line. this is requried for minutia detection and works by expanding the gradent to be one colour this expanding every line,
-each line is then thinned at its middle point.
-changing this: ![fingerpint pre skeletonization](/images/lines.png)
+each line is then thinned at its middle point.  
+changing this:  
+ ![fingerpint pre skeletonization](/images/lines.png)
 to this ![fingerpint post skeletonization](/images/lines2.png)
+
+##Detection of minutia positions
+minutia is calssified through three methods, two lines converging, two lines splitting and a line ending.
+The poresses is comlpeated by tracing allong each line and checking for one of these three situations. 
+at each of these lacations a minutia point was placed.
+
+##estomation of minutia directions 
 
